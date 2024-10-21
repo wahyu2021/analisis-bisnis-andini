@@ -1,0 +1,49 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.text-indent {
+  text-indent: 40px;
+}
+
+.container-ppt {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-top: 56.25%;
+  padding-bottom: 0;
+  box-shadow: 0 2px 8px 0 rgba(63, 69, 81, 0.16);
+  overflow: hidden;
+  will-change: transform;
+}
+
+.iframe-ppt {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.border-left {
+  border-left: 1px solid #eaeaea;
+}
+
+nav {
+  background: linear-gradient(90deg, #0d47a1 0%, #2196f3 70%);
+}
+
+.full-dark {
+  background-color: #1c1c1c;
+}
